@@ -7,7 +7,7 @@ namespace Avancerad.Net_Labb1
     {
         static void Main(string[] args)
         {
-
+            Meny.MenyGo();
         }
     }
 }

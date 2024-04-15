@@ -3,6 +3,7 @@ using Avancerad.Net_Labb1.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace Avancerad.Net_Labb1.Migrations
 {
     [DbContext(typeof(SkolaDbContext))]
-    partial class SkolaDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240412114749_DbUptade")]
+    partial class DbUptade
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -216,7 +219,7 @@ namespace Avancerad.Net_Labb1.Migrations
                         new
                         {
                             LärarId = 4,
-                            LärarNamn = "Reidar"
+                            LärarNamn = "Ali"
                         });
                 });
 

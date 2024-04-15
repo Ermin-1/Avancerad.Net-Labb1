@@ -28,8 +28,8 @@ namespace Avancerad.Net_Labb1.Models
         {
             modelBuilder.Entity<Ämne>().HasData(new Ämne { ÄmneId = 1, ÄmneNamn = "Mattematik" });
             modelBuilder.Entity<Ämne>().HasData(new Ämne { ÄmneId = 2, ÄmneNamn = "C#" });
-            modelBuilder.Entity<Ämne>().HasData(new Ämne { ÄmneId = 3, ÄmneNamn = "Phyton" });
-            modelBuilder.Entity<Ämne>().HasData(new Ämne { ÄmneId = 4, ÄmneNamn = "GoLang" });
+            modelBuilder.Entity<Ämne>().HasData(new Ämne { ÄmneId = 3, ÄmneNamn = "Programmering1" });
+            modelBuilder.Entity<Ämne>().HasData(new Ämne { ÄmneId = 4, ÄmneNamn = "Programmering2" });
 
             modelBuilder.Entity<Klass>().HasData(new Klass { KlassId = 1, KlassNamn = "SUT23" });
             modelBuilder.Entity<Klass>().HasData(new Klass { KlassId = 2, KlassNamn = "SUT22" });
@@ -37,7 +37,7 @@ namespace Avancerad.Net_Labb1.Models
             modelBuilder.Entity<Lärare>().HasData(new Lärare { LärarId = 1, LärarNamn = "Anas" });
             modelBuilder.Entity<Lärare>().HasData(new Lärare { LärarId = 2, LärarNamn = "Tobias" });
             modelBuilder.Entity<Lärare>().HasData(new Lärare { LärarId = 3, LärarNamn = "Lennart" });
-            modelBuilder.Entity<Lärare>().HasData(new Lärare { LärarId = 4, LärarNamn = "Ali" });
+            modelBuilder.Entity<Lärare>().HasData(new Lärare { LärarId = 4, LärarNamn = "Reidar" });
 
             modelBuilder.Entity<Student>().HasData(new Student { StudentId = 1, StudentNamn = "Ermin" });
             modelBuilder.Entity<Student>().HasData(new Student { StudentId = 2, StudentNamn = "Oskar" });
